@@ -1,0 +1,11 @@
+version: 1
+project:
+  title: arXiv Data Science Project
+  toc:
+    - file: milestone1/intro.md
+    - file: milestone1/implementation.md
+    - file: milestone1/statistics.ipynb
+    - file: milestone1/performance.ipynb
+
+site:
+  template: book-theme
