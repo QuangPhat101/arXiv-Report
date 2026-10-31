@@ -34,7 +34,7 @@ jobs:
         with:
           node-version: 20
       - name: Install Jupyter Book
-        run: pip install "jupyter-book>=2" ipykernel pandas numpy matplotlib
+        run: pip install "jupyter-book>=2" ipykernel pandas numpy matplotlib psutil
       # Notebooks are re-executed on every build; they read the summary CSVs in milestone1/data/.
       - name: Build HTML
         run: jupyter-book build --html --execute
