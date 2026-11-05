@@ -3,9 +3,9 @@
 ## Project overview
 
 This project is part of the Introduction to Data Science course at VNUHCM-US (HCMUS). The project spans three milestones:
-1. **Milestone 1 (Data Crawling)**: Scrape publication metadata, full-text LaTeX sources for all versions, and citation data.
-2. **Milestone 2 (Parsing and Standardization)**: Parse LaTeX sources into document element trees and standardize citations into BibTeX.
-3. **Milestone 3 (Reference Matching)**: Build and evaluate a reference matching model scored by MRR@5.
+1. Milestone 1 (Data Crawling): Scrape publication metadata, full-text LaTeX sources for all versions, and citation data.
+2. Milestone 2 (Parsing and Standardization): Parse LaTeX sources into document element trees and standardize citations into BibTeX.
+3. Milestone 3 (Reference Matching): Build and evaluate a reference matching model scored by MRR@5.
 
 The corpus collected in this milestone provides the raw data for the parsing and modeling stages in Milestones 2 and 3. The pipeline collects native LaTeX source archives, complete version histories, and citation records from the Semantic Scholar Graph API instead of scraping compiled PDFs.
 

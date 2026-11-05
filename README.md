@@ -1,4 +1,4 @@
-# arXiv Data Science Project — Report
+# arXiv Data Science Project: Report
 
 Jupyter Book report cho project Introduction to Data Science.
 
