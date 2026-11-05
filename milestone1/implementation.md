@@ -97,19 +97,19 @@ The crawler handles irregular submissions, malformed archives, and transient net
 
 | Edge case | Handling strategy | Observed frequency |
 | :--- | :--- | :--- |
-| PDF-only submission (no source archive on arXiv) | `downloader` returns `None` on HTTP 404; `extractor` marks version as `PDF_ONLY` with an atomic `.complete` stamp | 24 versions |
+| PDF-only submission (no source archive on arXiv) | `downloader` returns `None` on HTTP 404; the crawler records the version as `PDF_ONLY` with an atomic `.complete` stamp | 24 versions |
 | Archive without `.tex` or `.bib` files (figures or standalone PDF only) | `extractor` records `PDF_ONLY` when an archive contains no LaTeX files | 590 versions |
 | Single-file gzip archive (one `.tex` file, not a tarball) | Decompressed directly with `gzip` and stored as `main.tex` | 816 versions |
 | Raw PDF or PostScript binary payload | Identified via magic bytes (`%PDF-`, `%!PS`) and classified as `PDF_ONLY` | Included in counts above |
 | Path traversal vulnerabilities in archive members (Zip Slip) | Destination paths are verified against target directories; path escapes, symlinks, and device nodes are skipped | 0 malicious attempts |
 | Multiple versions per publication | Revisions `v1` to `vN` are detected from metadata and processed through worker pools | Maximum 26 versions; 43% of papers contain multiple versions |
 | Paper not indexed in Semantic Scholar | Explicit HTTP 404 responses write an empty array to `references.json`, allowing the paper to complete | 270 papers (5.4%) |
-| Rate limiting encounters (HTTP 429) | Monotonic rate limiters, mutex-protected cooldowns, and jittered exponential backoff retries | 277 events, all recovered |
-| Interrupted network streams | Partial payloads are preserved in `.part` files and resumed via HTTP Range requests (HTTP 206) | Validated across parallel test runs |
-| Transient server and network errors (5xx, timeouts) | Retried using exponential backoff; unresolvable failures raise exceptions so the paper is retried on the next pass | All temporary failures resolved |
+| Rate limiting encounters (HTTP 429) | Monotonic rate limiters, mutex-protected cooldowns, and jittered exponential backoff retries | 277 events in the original sequential crawl, all recovered |
+| Interrupted network streams | Partial payloads are preserved in `.part` files and resumed via HTTP Range requests (HTTP 206) | — |
+| Transient server and network errors (5xx, timeouts) | Retried using exponential backoff; unresolvable failures raise exceptions so the paper is retried on the next pass | — |
 | Residual failures after retry limits | Unfinished papers are logged with error reasons; a subsequent pass targets pending items from checkpoint | 2 papers, recovered in round 2 |
-| Process interruptions | Two-tier checkpointing (`checkpoint.txt` and `.complete` stamps) bypasses finished work upon restart | Resumption verified |
-| Cross-month ID boundaries | The `--start-month-max` flag limits ID generation to actual monthly submissions, avoiding non-existent ranges | Validated on cross-month ranges |
+| Process interruptions | Two-tier checkpointing (`checkpoint.txt` and `.complete` stamps) bypasses finished work upon restart | — |
+| Cross-month ID boundaries | The `--start-month-max` flag limits ID generation to actual monthly submissions, avoiding non-existent ranges | Not applicable (the sample lies within a single month) |
 
 ### Error handling integrity
 
