@@ -83,14 +83,7 @@ Because the crawler queries multiple external endpoints concurrently, strict rat
 The crawler CLI exposes flags to support both production crawling and controlled empirical benchmarks:
 
 ```bash
-# Parallel execution with 3 download workers
 python src/crawler.py --month 2505 --start 10666 --end 15665 --output ./data --parallel
-
-# Direct arXiv string identifier format
-python src/crawler.py --start 2506.05788 --end 2506.10787 --output ./data --parallel
-
-# Baseline sequential execution for comparative profiling
-python src/crawler.py --month 2505 --start 10666 --end 10765 --output ./data_baseline --baseline --profile --stats-file ./baseline_stats.json
 ```
 
 - `--parallel`: Activates the 3-stage Producer-Consumer pipeline, setting default worker counts to 3 download threads.
