@@ -105,10 +105,10 @@ The crawler handles irregular submissions, malformed archives, and transient net
 | Multiple versions per publication | Revisions `v1` to `vN` are detected from metadata and processed through worker pools | Maximum 26 versions; 43% of papers contain multiple versions |
 | Paper not indexed in Semantic Scholar | Explicit HTTP 404 responses write an empty array to `references.json`, allowing the paper to complete | 270 papers (5.4%) |
 | Rate limiting encounters (HTTP 429) | Monotonic rate limiters, mutex-protected cooldowns, and jittered exponential backoff retries | 277 events in the original sequential crawl, all recovered |
-| Interrupted network streams | Partial payloads are preserved in `.part` files and resumed via HTTP Range requests (HTTP 206) | — |
-| Transient server and network errors (5xx, timeouts) | Retried using exponential backoff; unresolvable failures raise exceptions so the paper is retried on the next pass | — |
+| Interrupted network streams | Partial payloads are preserved in `.part` files and resumed via HTTP Range requests (HTTP 206) | Not quantified |
+| Transient server and network errors (5xx, timeouts) | Retried using exponential backoff; unresolvable failures raise exceptions so the paper is retried on the next pass | Not quantified |
 | Residual failures after retry limits | Unfinished papers are logged with error reasons; a subsequent pass targets pending items from checkpoint | 2 papers, recovered in round 2 |
-| Process interruptions | Two-tier checkpointing (`checkpoint.txt` and `.complete` stamps) bypasses finished work upon restart | — |
+| Process interruptions | Two-tier checkpointing (`checkpoint.txt` and `.complete` stamps) bypasses finished work upon restart | Not quantified |
 | Cross-month ID boundaries | The `--start-month-max` flag limits ID generation to actual monthly submissions, avoiding non-existent ranges | Not applicable (the sample lies within a single month) |
 
 ### Error handling integrity
