@@ -24,7 +24,7 @@
       5000
     ]
   },
-  "download_workers": 5,
+  "download_workers": 2,
   "id_count": 20000,
   "id_list_sha256": "a547b6f2eeca6557c529d8943583b73ae3d86d1e96baeea7556c7e6f42589b10",
   "manifest_ref": "50945d301d1939862f4cad5a33a16d4731374e57",
@@ -32,8 +32,8 @@
   "profile_interval_s": 1,
   "report_repo": "QuangPhat101/arXiv-Report",
   "retry_passes": 3,
-  "runner_sha256": "8b93912d25b3da281b8f50071b6c5621e12f5bbfdb2c61e8df3ceedd64115e46",
-  "s2_workers": 4,
+  "runner_sha256": "09a79b38c705f2847c84269ff164a3689474c915df117d7512193c6cac814f9c",
+  "s2_workers": 2,
   "schema": 1,
   "scraper_repo": "QuangPhat101/arXiv-Project",
   "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea"
