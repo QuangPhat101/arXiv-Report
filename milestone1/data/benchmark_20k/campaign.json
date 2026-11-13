@@ -1,0 +1,40 @@
+{
+  "api_gap_s": 3.5,
+  "api_slot_s": 120,
+  "block_size": 25,
+  "csv_ranges": {
+    "arxiv_2503_2504_summary.csv": [
+      "2503.21914",
+      "2504.02522",
+      5000
+    ],
+    "arxiv_2503_summary.csv": [
+      "2503.01914",
+      "2503.06913",
+      5000
+    ],
+    "arxiv_2505_summary.csv": [
+      "2505.10666",
+      "2505.15665",
+      5000
+    ],
+    "arxiv_2506_summary.csv": [
+      "2506.05788",
+      "2506.10787",
+      5000
+    ]
+  },
+  "download_workers": 5,
+  "id_count": 20000,
+  "id_list_sha256": "a547b6f2eeca6557c529d8943583b73ae3d86d1e96baeea7556c7e6f42589b10",
+  "manifest_ref": "50945d301d1939862f4cad5a33a16d4731374e57",
+  "max_active_vms": 4,
+  "profile_interval_s": 1,
+  "report_repo": "QuangPhat101/arXiv-Report",
+  "retry_passes": 3,
+  "runner_sha256": "8b93912d25b3da281b8f50071b6c5621e12f5bbfdb2c61e8df3ceedd64115e46",
+  "s2_workers": 4,
+  "schema": 1,
+  "scraper_repo": "QuangPhat101/arXiv-Project",
+  "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea"
+}

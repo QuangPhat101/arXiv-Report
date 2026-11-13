@@ -1,0 +1,43 @@
+{
+  "accepted_instrumented_seconds": {},
+  "accepted_network_counts": {},
+  "accepted_phases_s": {},
+  "accepted_profiler_seconds": 0,
+  "accepted_profiler_seconds_per_observation": null,
+  "all_attempt_machine_seconds_observed": 0,
+  "attempts_observed": 0,
+  "by_latest_outcome": {},
+  "calendar_span_observed_s": null,
+  "committed_passes": 0,
+  "evaluated_distinct": 0,
+  "last_observed_utc": null,
+  "latest_id_extracted_bytes": 0,
+  "latest_id_output_disk_bytes": 0,
+  "latest_id_raw_bytes": 0,
+  "latest_id_savings_pct": null,
+  "peak_rss_mib": null,
+  "per_vm_output_disk_peak_sampled_bytes": null,
+  "profiler_id_observations_including_retries": 0,
+  "ranges": {
+    "arxiv_2503_2504_summary.csv": {
+      "target": 5000
+    },
+    "arxiv_2503_summary.csv": {
+      "target": 5000
+    },
+    "arxiv_2505_summary.csv": {
+      "target": 5000
+    },
+    "arxiv_2506_summary.csv": {
+      "target": 5000
+    }
+  },
+  "sample_weighted_rss_mib": null,
+  "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea",
+  "settled": 0,
+  "start_utc": null,
+  "status": "in_progress",
+  "target": 20000,
+  "uncommitted_attempts": 0,
+  "uncommitted_machine_seconds_observed": 0
+}
