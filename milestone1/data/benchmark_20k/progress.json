@@ -1,63 +1,63 @@
 {
   "accepted_instrumented_seconds": {
-    "coord.discovery_wait": 19.039019895999786,
-    "request.arxiv_api": 5.348037050999665,
-    "request.s2": 104.41690623600289,
-    "request.source": 131.19140514600383,
-    "sleep.src.references.fetch_s2_paper_data": 1271.8159954010005,
-    "sleep.src.utils.wait": 1427.9752631050037
+    "coord.discovery_wait": 20.842558516999702,
+    "request.arxiv_api": 5.755051885999819,
+    "request.s2": 116.22551272700503,
+    "request.source": 155.03800912400436,
+    "sleep.src.references.fetch_s2_paper_data": 1453.9000925540015,
+    "sleep.src.utils.wait": 1570.5729131470007
   },
   "accepted_network_counts": {
-    "coord.discovery_wait": 10,
-    "http.arxiv_api.200": 10,
-    "http.s2.200": 249,
-    "http.s2.429": 324,
-    "http.source.200": 395,
+    "coord.discovery_wait": 11,
+    "http.arxiv_api.200": 11,
+    "http.s2.200": 274,
+    "http.s2.429": 363,
+    "http.source.200": 441,
     "http.source.404": 1,
-    "request.arxiv_api": 10,
-    "request.s2": 573,
-    "request.source": 396,
-    "retry_notice.src.references": 323,
-    "sleep.src.references.fetch_s2_paper_data": 430,
-    "sleep.src.utils.wait": 568
+    "request.arxiv_api": 11,
+    "request.s2": 637,
+    "request.source": 442,
+    "retry_notice.src.references": 362,
+    "sleep.src.references.fetch_s2_paper_data": 482,
+    "sleep.src.utils.wait": 631
   },
   "accepted_phases_s": {
-    "discovery": 24.77,
-    "download": 2833.7,
-    "extract": 15.7,
+    "discovery": 27.009999999999998,
+    "download": 3250.8599999999997,
+    "extract": 18.88,
     "rate_limit_sleep": 0.0,
-    "s2_references": 1559.1599999999996
+    "s2_references": 1772.4799999999996
   },
-  "accepted_profiler_seconds": 1614.14,
-  "accepted_profiler_seconds_per_observation": 6.4566,
-  "all_attempt_machine_seconds_observed": 1671.991,
-  "attempts_observed": 10,
+  "accepted_profiler_seconds": 1853.24,
+  "accepted_profiler_seconds_per_observation": 6.7391,
+  "all_attempt_machine_seconds_observed": 1915.496,
+  "attempts_observed": 11,
   "by_latest_outcome": {
     "FAILED": 1,
-    "PDF_ONLY": 16,
-    "SUCCESS": 233
+    "PDF_ONLY": 17,
+    "SUCCESS": 257
   },
-  "calendar_span_observed_s": 1718.876,
-  "committed_passes": 10,
-  "evaluated_distinct": 250,
-  "last_observed_utc": "2026-11-13T13:31:43+00:00",
-  "latest_id_extracted_bytes": 67802316,
-  "latest_id_output_disk_bytes": 79481824,
-  "latest_id_raw_bytes": 1951083803,
-  "latest_id_savings_pct": 96.525,
+  "calendar_span_observed_s": 1967.388,
+  "committed_passes": 11,
+  "evaluated_distinct": 275,
+  "last_observed_utc": "2026-11-13T13:35:52+00:00",
+  "latest_id_extracted_bytes": 74454239,
+  "latest_id_output_disk_bytes": 88217821,
+  "latest_id_raw_bytes": 2349018667,
+  "latest_id_savings_pct": 96.83,
   "peak_rss_mib": 48.61,
   "per_vm_output_disk_peak_sampled_bytes": 206598775,
-  "profiler_id_observations_including_retries": 250,
+  "profiler_id_observations_including_retries": 275,
   "ranges": {
     "arxiv_2503_2504_summary.csv": {
       "target": 5000
     },
     "arxiv_2503_summary.csv": {
       "FAILED": 1,
-      "PDF_ONLY": 16,
-      "SUCCESS": 233,
-      "evaluated": 250,
-      "settled": 249,
+      "PDF_ONLY": 17,
+      "SUCCESS": 257,
+      "evaluated": 275,
+      "settled": 274,
       "target": 5000
     },
     "arxiv_2505_summary.csv": {
@@ -67,9 +67,9 @@
       "target": 5000
     }
   },
-  "sample_weighted_rss_mib": 46.037,
+  "sample_weighted_rss_mib": 46.184,
   "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea",
-  "settled": 249,
+  "settled": 274,
   "start_utc": "2026-11-13T13:03:05+00:00",
   "status": "in_progress",
   "target": 20000,
