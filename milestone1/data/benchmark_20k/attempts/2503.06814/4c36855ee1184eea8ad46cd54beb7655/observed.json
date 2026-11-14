@@ -2,11 +2,14 @@
   "architecture": "x86_64",
   "attempt": "4c36855ee1184eea8ad46cd54beb7655",
   "block": "2503.06814",
+  "child_elapsed_s": 251.088,
+  "child_exit": 0,
   "cpu_affinity": 2,
   "cpu_count": 2,
+  "disk_final_bytes": 4012280,
   "disk_free_start_bytes": 115466952704,
-  "disk_peak_sampled_bytes": 111539232,
-  "elapsed_observed_s": 233.63,
+  "disk_peak_sampled_bytes": 128316448,
+  "elapsed_observed_s": 251.126,
   "ids": [
     "2503.06814",
     "2503.06815",
@@ -34,7 +37,7 @@
     "2503.06837",
     "2503.06838"
   ],
-  "last_seen_utc": 1794666329.4605167,
+  "last_seen_utc": 1794666346.95698,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
@@ -42,8 +45,48 @@
     "requests": "2.32.4",
     "tqdm": "4.67.3"
   },
-  "phase": "running",
+  "phase": "uploading",
   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "profile": {
+    "count": 25,
+    "network_counts": {
+      "coord.discovery_wait": 1,
+      "http.arxiv_api.200": 1,
+      "http.s2.200": 25,
+      "http.s2.429": 35,
+      "http.source.200": 34,
+      "http.source.206": 4,
+      "http.source.429": 4,
+      "request.arxiv_api": 1,
+      "request.s2": 60,
+      "request.source": 42,
+      "retry_notice.src.downloader": 8,
+      "retry_notice.src.references": 35,
+      "sleep.src.references.fetch_s2_paper_data": 45,
+      "sleep.src.utils.wait": 49,
+      "sleep.src.utils.wrapper": 8
+    },
+    "phases_s": {
+      "discovery": 2.28,
+      "download": 443.69,
+      "extract": 1.75,
+      "rate_limit_sleep": 0.0,
+      "s2_references": 173.9
+    },
+    "ram_avg_mib": 45.52,
+    "ram_peak_mib": 46.23,
+    "ram_samples": 250,
+    "waits_s": {
+      "coord.discovery_wait": 2.003710200000569,
+      "request.arxiv_api": 0.25407792599980894,
+      "request.s2": 6.359985117998804,
+      "request.source": 48.46931203699751,
+      "sleep.src.references.fetch_s2_paper_data": 150.705369427993,
+      "sleep.src.utils.wait": 102.66297979399678,
+      "sleep.src.utils.wrapper": 69.00119062200065
+    },
+    "wall_s": 249.73
+  },
   "python": "3.13.18",
   "ram_bytes": 13605818368,
   "s2_key_present": true,
