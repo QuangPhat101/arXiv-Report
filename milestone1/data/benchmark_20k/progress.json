@@ -1,59 +1,59 @@
 {
   "accepted_instrumented_seconds": {
-    "coord.discovery_wait": 166.4625030719998,
-    "request.arxiv_api": 27.217777880999222,
-    "request.s2": 830.5197780890209,
-    "request.source": 2004.9795082800076,
-    "sleep.src.references.fetch_s2_paper_data": 5803.566572732005,
-    "sleep.src.utils.wait": 7099.2588367750195,
+    "coord.discovery_wait": 168.06431474000001,
+    "request.arxiv_api": 27.384437854998907,
+    "request.s2": 838.2570476090197,
+    "request.source": 2031.7272502870067,
+    "sleep.src.references.fetch_s2_paper_data": 5844.309036673005,
+    "sleep.src.utils.wait": 7256.090616054018,
     "sleep.src.utils.wrapper": 360.01464977399905
   },
   "accepted_network_counts": {
-    "coord.discovery_wait": 56,
-    "http.arxiv_api.200": 56,
-    "http.s2.200": 1398,
+    "coord.discovery_wait": 57,
+    "http.arxiv_api.200": 57,
+    "http.s2.200": 1423,
     "http.s2.404": 1,
-    "http.s2.429": 1680,
-    "http.source.200": 2253,
+    "http.s2.429": 1699,
+    "http.source.200": 2301,
     "http.source.206": 67,
     "http.source.404": 9,
     "http.source.429": 24,
-    "request.arxiv_api": 56,
-    "request.s2": 3079,
-    "request.source": 2353,
+    "request.arxiv_api": 57,
+    "request.s2": 3123,
+    "request.source": 2401,
     "retry_notice.src.downloader": 91,
-    "retry_notice.src.references": 1679,
-    "sleep.src.references.fetch_s2_paper_data": 2166,
-    "sleep.src.utils.wait": 2896,
+    "retry_notice.src.references": 1698,
+    "sleep.src.references.fetch_s2_paper_data": 2186,
+    "sleep.src.utils.wait": 2945,
     "sleep.src.utils.wrapper": 91
   },
   "accepted_phases_s": {
-    "discovery": 195.43,
-    "download": 20168.969999999998,
-    "extract": 82.02000000000001,
+    "discovery": 197.21,
+    "download": 20504.609999999997,
+    "extract": 83.31000000000002,
     "rate_limit_sleep": 0.0,
-    "s2_references": 7420.259999999999
+    "s2_references": 7470.179999999999
   },
-  "accepted_profiler_seconds": 11352.12,
-  "accepted_profiler_seconds_per_observation": 8.1087,
-  "all_attempt_machine_seconds_observed": 16499.339,
-  "attempts_observed": 63,
+  "accepted_profiler_seconds": 11525.19,
+  "accepted_profiler_seconds_per_observation": 8.0879,
+  "all_attempt_machine_seconds_observed": 16924.275,
+  "attempts_observed": 64,
   "by_latest_outcome": {
     "FAILED": 1,
     "PDF_ONLY": 122,
-    "SUCCESS": 1277
+    "SUCCESS": 1302
   },
-  "calendar_span_observed_s": 67978.328,
-  "committed_passes": 56,
-  "evaluated_distinct": 1400,
-  "last_observed_utc": "2026-11-14T07:56:03+00:00",
-  "latest_id_extracted_bytes": 468554699,
-  "latest_id_output_disk_bytes": 536467504,
-  "latest_id_raw_bytes": 10927756377,
-  "latest_id_savings_pct": 95.712,
+  "calendar_span_observed_s": 68086.45,
+  "committed_passes": 57,
+  "evaluated_distinct": 1425,
+  "last_observed_utc": "2026-11-14T07:57:51+00:00",
+  "latest_id_extracted_bytes": 474985012,
+  "latest_id_output_disk_bytes": 543608686,
+  "latest_id_raw_bytes": 11093768364,
+  "latest_id_savings_pct": 95.718,
   "peak_rss_mib": 49.21,
   "per_vm_output_disk_peak_sampled_bytes": 206598775,
-  "profiler_id_observations_including_retries": 1400,
+  "profiler_id_observations_including_retries": 1425,
   "ranges": {
     "arxiv_2503_2504_summary.csv": {
       "target": 5000
@@ -61,9 +61,9 @@
     "arxiv_2503_summary.csv": {
       "FAILED": 1,
       "PDF_ONLY": 122,
-      "SUCCESS": 1277,
-      "evaluated": 1400,
-      "settled": 1399,
+      "SUCCESS": 1302,
+      "evaluated": 1425,
+      "settled": 1424,
       "target": 5000
     },
     "arxiv_2505_summary.csv": {
@@ -73,12 +73,12 @@
       "target": 5000
     }
   },
-  "sample_weighted_rss_mib": 45.814,
+  "sample_weighted_rss_mib": 45.809,
   "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea",
-  "settled": 1399,
+  "settled": 1424,
   "start_utc": "2026-11-13T13:03:05+00:00",
   "status": "in_progress",
   "target": 20000,
   "uncommitted_attempts": 7,
-  "uncommitted_machine_seconds_observed": 4829.567
+  "uncommitted_machine_seconds_observed": 5077.708
 }
