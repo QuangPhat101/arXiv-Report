@@ -5,8 +5,8 @@
   "cpu_affinity": 2,
   "cpu_count": 2,
   "disk_free_start_bytes": 115532386304,
-  "disk_peak_sampled_bytes": 17129714,
-  "elapsed_observed_s": 45.199,
+  "disk_peak_sampled_bytes": 48003668,
+  "elapsed_observed_s": 92.464,
   "ids": [
     "2503.04264",
     "2503.04265",
@@ -34,7 +34,7 @@
     "2503.04287",
     "2503.04288"
   ],
-  "last_seen_utc": 1794653898.0368207,
+  "last_seen_utc": 1794653945.3016381,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
