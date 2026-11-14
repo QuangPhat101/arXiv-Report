@@ -1,69 +1,69 @@
 {
   "accepted_instrumented_seconds": {
-    "coord.discovery_wait": 276.634202718001,
-    "request.arxiv_api": 46.74508413499848,
-    "request.s2": 1432.3595372030125,
-    "request.source": 3969.960887906011,
-    "sleep.src.references.fetch_s2_paper_data": 9669.967502084994,
-    "sleep.src.utils.wait": 12966.492102764047,
-    "sleep.src.utils.wrapper": 1047.0380262110048
+    "coord.discovery_wait": 278.83662399900095,
+    "request.arxiv_api": 47.031115961998466,
+    "request.s2": 1440.0905958290116,
+    "request.source": 4018.4180084810123,
+    "sleep.src.references.fetch_s2_paper_data": 9740.894853910993,
+    "sleep.src.utils.wait": 13100.822390911047,
+    "sleep.src.utils.wrapper": 1080.0392551280047
   },
   "accepted_network_counts": {
-    "coord.discovery_wait": 103,
-    "http.arxiv_api.200": 103,
-    "http.s2.200": 2570,
-    "http.s2.404": 1,
-    "http.s2.429": 2853,
-    "http.source.200": 4174,
-    "http.source.206": 169,
+    "coord.discovery_wait": 104,
+    "http.arxiv_api.200": 104,
+    "http.s2.200": 2594,
+    "http.s2.404": 2,
+    "http.s2.429": 2879,
+    "http.source.200": 4220,
+    "http.source.206": 173,
     "http.source.404": 13,
-    "http.source.429": 69,
-    "request.arxiv_api": 103,
-    "request.s2": 5424,
-    "request.source": 4425,
-    "retry_notice.src.downloader": 238,
-    "retry_notice.src.references": 2852,
-    "sleep.src.references.fetch_s2_paper_data": 3667,
-    "sleep.src.utils.wait": 5245,
-    "sleep.src.utils.wrapper": 238
+    "http.source.429": 75,
+    "request.arxiv_api": 104,
+    "request.s2": 5475,
+    "request.source": 4481,
+    "retry_notice.src.downloader": 248,
+    "retry_notice.src.references": 2878,
+    "sleep.src.references.fetch_s2_paper_data": 3698,
+    "sleep.src.utils.wait": 5304,
+    "sleep.src.utils.wrapper": 248
   },
   "accepted_phases_s": {
-    "discovery": 326.41,
-    "download": 37793.89,
-    "extract": 146.4,
+    "discovery": 328.92,
+    "download": 38235.25,
+    "extract": 147.49,
     "rate_limit_sleep": 0.0,
-    "s2_references": 12399.729999999998
+    "s2_references": 12487.789999999997
   },
-  "accepted_profiler_seconds": 21193.83,
-  "accepted_profiler_seconds_per_observation": 8.2306,
-  "all_attempt_machine_seconds_observed": 28246.132,
-  "attempts_observed": 113,
+  "accepted_profiler_seconds": 21434.19,
+  "accepted_profiler_seconds_per_observation": 8.2439,
+  "all_attempt_machine_seconds_observed": 28725.321,
+  "attempts_observed": 114,
   "by_latest_outcome": {
     "FAILED": 4,
-    "PDF_ONLY": 226,
-    "SUCCESS": 2345
+    "PDF_ONLY": 228,
+    "SUCCESS": 2368
   },
-  "calendar_span_observed_s": 79917.249,
-  "committed_passes": 103,
-  "evaluated_distinct": 2575,
-  "last_observed_utc": "2026-11-14T11:15:02+00:00",
-  "latest_id_extracted_bytes": 1076623213,
-  "latest_id_output_disk_bytes": 1190837813,
-  "latest_id_raw_bytes": 19111689606,
-  "latest_id_savings_pct": 94.367,
+  "calendar_span_observed_s": 80171.686,
+  "committed_passes": 104,
+  "evaluated_distinct": 2600,
+  "last_observed_utc": "2026-11-14T11:19:16+00:00",
+  "latest_id_extracted_bytes": 1083479350,
+  "latest_id_output_disk_bytes": 1198277382,
+  "latest_id_raw_bytes": 19299796887,
+  "latest_id_savings_pct": 94.386,
   "peak_rss_mib": 49.73,
   "per_vm_output_disk_peak_sampled_bytes": 206598775,
-  "profiler_id_observations_including_retries": 2575,
+  "profiler_id_observations_including_retries": 2600,
   "ranges": {
     "arxiv_2503_2504_summary.csv": {
       "target": 5000
     },
     "arxiv_2503_summary.csv": {
       "FAILED": 4,
-      "PDF_ONLY": 226,
-      "SUCCESS": 2345,
-      "evaluated": 2575,
-      "settled": 2571,
+      "PDF_ONLY": 228,
+      "SUCCESS": 2368,
+      "evaluated": 2600,
+      "settled": 2596,
       "target": 5000
     },
     "arxiv_2505_summary.csv": {
@@ -73,12 +73,12 @@
       "target": 5000
     }
   },
-  "sample_weighted_rss_mib": 45.87,
+  "sample_weighted_rss_mib": 45.868,
   "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea",
-  "settled": 2571,
+  "settled": 2596,
   "start_utc": "2026-11-13T13:03:05+00:00",
   "status": "in_progress",
   "target": 20000,
   "uncommitted_attempts": 10,
-  "uncommitted_machine_seconds_observed": 6450.493
+  "uncommitted_machine_seconds_observed": 6684.044
 }
