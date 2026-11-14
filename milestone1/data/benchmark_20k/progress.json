@@ -1,68 +1,68 @@
 {
   "accepted_instrumented_seconds": {
-    "coord.discovery_wait": 47.49587502999967,
-    "request.arxiv_api": 13.3954566740004,
-    "request.s2": 249.58255011200794,
-    "request.source": 565.7086075750028,
-    "sleep.src.references.fetch_s2_paper_data": 2676.1316614710004,
-    "sleep.src.utils.wait": 3418.1487447640075,
-    "sleep.src.utils.wrapper": 63.001614125999936
+    "coord.discovery_wait": 49.09764156999964,
+    "request.arxiv_api": 13.556781198000238,
+    "request.s2": 260.17503203200766,
+    "request.source": 586.2692070500032,
+    "sleep.src.references.fetch_s2_paper_data": 2798.8935777120005,
+    "sleep.src.utils.wait": 3558.541747560007,
+    "sleep.src.utils.wrapper": 72.00195115399981
   },
   "accepted_network_counts": {
-    "coord.discovery_wait": 25,
-    "http.arxiv_api.200": 25,
-    "http.s2.200": 624,
-    "http.s2.429": 740,
-    "http.source.200": 991,
-    "http.source.206": 10,
+    "coord.discovery_wait": 26,
+    "http.arxiv_api.200": 26,
+    "http.s2.200": 649,
+    "http.s2.429": 773,
+    "http.source.200": 1031,
+    "http.source.206": 12,
     "http.source.404": 4,
-    "http.source.429": 4,
-    "request.arxiv_api": 25,
-    "request.s2": 1364,
-    "request.source": 1009,
-    "retry_notice.src.downloader": 14,
-    "retry_notice.src.references": 739,
-    "sleep.src.references.fetch_s2_paper_data": 973,
-    "sleep.src.utils.wait": 1351,
-    "sleep.src.utils.wrapper": 14
+    "http.source.429": 5,
+    "request.arxiv_api": 26,
+    "request.s2": 1422,
+    "request.source": 1052,
+    "retry_notice.src.downloader": 17,
+    "retry_notice.src.references": 772,
+    "sleep.src.references.fetch_s2_paper_data": 1014,
+    "sleep.src.utils.wait": 1406,
+    "sleep.src.utils.wrapper": 17
   },
   "accepted_phases_s": {
-    "discovery": 61.78,
-    "download": 7679.93,
-    "extract": 39.099999999999994,
+    "discovery": 63.56,
+    "download": 7998.72,
+    "extract": 40.129999999999995,
     "rate_limit_sleep": 0.0,
-    "s2_references": 3309.8399999999997
+    "s2_references": 3456.5999999999995
   },
-  "accepted_profiler_seconds": 4418.67,
-  "accepted_profiler_seconds_per_observation": 7.0699,
-  "all_attempt_machine_seconds_observed": 6420.975,
-  "attempts_observed": 28,
+  "accepted_profiler_seconds": 4601.78,
+  "accepted_profiler_seconds_per_observation": 7.0797,
+  "all_attempt_machine_seconds_observed": 6800.695,
+  "attempts_observed": 29,
   "by_latest_outcome": {
     "FAILED": 1,
-    "PDF_ONLY": 48,
-    "SUCCESS": 576
+    "PDF_ONLY": 52,
+    "SUCCESS": 597
   },
-  "calendar_span_observed_s": 65026.509,
-  "committed_passes": 25,
-  "evaluated_distinct": 625,
-  "last_observed_utc": "2026-11-14T07:06:51+00:00",
-  "latest_id_extracted_bytes": 130608009,
-  "latest_id_output_disk_bytes": 161326989,
-  "latest_id_raw_bytes": 4589001390,
-  "latest_id_savings_pct": 97.154,
+  "calendar_span_observed_s": 65217.987,
+  "committed_passes": 26,
+  "evaluated_distinct": 650,
+  "last_observed_utc": "2026-11-14T07:10:03+00:00",
+  "latest_id_extracted_bytes": 133834378,
+  "latest_id_output_disk_bytes": 165183004,
+  "latest_id_raw_bytes": 4742717898,
+  "latest_id_savings_pct": 97.178,
   "peak_rss_mib": 48.61,
   "per_vm_output_disk_peak_sampled_bytes": 206598775,
-  "profiler_id_observations_including_retries": 625,
+  "profiler_id_observations_including_retries": 650,
   "ranges": {
     "arxiv_2503_2504_summary.csv": {
       "target": 5000
     },
     "arxiv_2503_summary.csv": {
       "FAILED": 1,
-      "PDF_ONLY": 48,
-      "SUCCESS": 576,
-      "evaluated": 625,
-      "settled": 624,
+      "PDF_ONLY": 52,
+      "SUCCESS": 597,
+      "evaluated": 650,
+      "settled": 649,
       "target": 5000
     },
     "arxiv_2505_summary.csv": {
@@ -72,12 +72,12 @@
       "target": 5000
     }
   },
-  "sample_weighted_rss_mib": 45.896,
+  "sample_weighted_rss_mib": 45.877,
   "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea",
-  "settled": 624,
+  "settled": 649,
   "start_utc": "2026-11-13T13:03:05+00:00",
   "status": "in_progress",
   "target": 20000,
   "uncommitted_attempts": 3,
-  "uncommitted_machine_seconds_observed": 1874.842
+  "uncommitted_machine_seconds_observed": 2067.42
 }
