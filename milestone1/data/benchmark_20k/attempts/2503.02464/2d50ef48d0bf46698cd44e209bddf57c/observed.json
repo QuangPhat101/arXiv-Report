@@ -6,7 +6,8 @@
   "cpu_count": 2,
   "disk_free_start_bytes": 115517317120,
   "disk_peak_sampled_bytes": 0,
-  "elapsed_observed_s": 0.0,
+  "elapsed_observed_s": 2.268,
+  "exception": "RuntimeError: Kiểm tra quyền đọc/ghi benchmark-20k-parallel-2x2: error: failed to push some refs to 'https://github.com/QuangPhat101/arXiv-Report.git'\nTo https://github.com/QuangPhat101/arXiv-Report.git\n!\tHEAD:refs/heads/benchmark-20k-parallel-2x2\t[remote rejected] (cannot lock ref 'refs/heads/benchmark-20k-parallel-2x2': is at f34032e0d9656111e80523b6c8bd50432ae774a3 but expected b3270eb41a592ba4bcf005943732f4",
   "ids": [
     "2503.02464",
     "2503.02465",
@@ -34,6 +35,7 @@
     "2503.02487",
     "2503.02488"
   ],
+  "last_seen_utc": 1794642805.1043906,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
@@ -41,12 +43,12 @@
     "requests": "2.32.4",
     "tqdm": "4.67.3"
   },
-  "phase": "claimed",
+  "phase": "interrupted",
   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
   "python": "3.13.18",
   "ram_bytes": 13605810176,
   "s2_key_present": true,
   "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea",
   "session": "de43000368d141b892f0ef271109008e",
-  "started_utc": 1794642801.3556767
+  "started_utc": 1794642802.836059
 }
