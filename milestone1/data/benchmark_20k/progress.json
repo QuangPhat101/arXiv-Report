@@ -1,68 +1,68 @@
 {
   "accepted_instrumented_seconds": {
-    "coord.discovery_wait": 84.35241072799991,
-    "request.arxiv_api": 20.741604996000717,
-    "request.s2": 559.8111833090073,
-    "request.source": 1357.894252812001,
-    "sleep.src.references.fetch_s2_paper_data": 4312.1629595500035,
-    "sleep.src.utils.wait": 5257.010756528013,
-    "sleep.src.utils.wrapper": 246.00974372999963
+    "coord.discovery_wait": 98.16726878599948,
+    "request.arxiv_api": 20.93300666500096,
+    "request.s2": 568.9111336630089,
+    "request.source": 1395.0420589120013,
+    "sleep.src.references.fetch_s2_paper_data": 4389.325571662005,
+    "sleep.src.utils.wait": 5372.841899898013,
+    "sleep.src.utils.wrapper": 258.0102387029997
   },
   "accepted_network_counts": {
-    "coord.discovery_wait": 41,
-    "http.arxiv_api.200": 41,
-    "http.s2.200": 1024,
-    "http.s2.429": 1227,
-    "http.source.200": 1629,
-    "http.source.206": 47,
+    "coord.discovery_wait": 42,
+    "http.arxiv_api.200": 42,
+    "http.s2.200": 1049,
+    "http.s2.429": 1255,
+    "http.source.200": 1665,
+    "http.source.206": 50,
     "http.source.404": 7,
-    "http.source.429": 14,
-    "request.arxiv_api": 41,
-    "request.s2": 2251,
-    "request.source": 1697,
-    "retry_notice.src.downloader": 61,
-    "retry_notice.src.references": 1226,
-    "sleep.src.references.fetch_s2_paper_data": 1589,
-    "sleep.src.utils.wait": 2152,
-    "sleep.src.utils.wrapper": 61
+    "http.source.429": 15,
+    "request.arxiv_api": 42,
+    "request.s2": 2304,
+    "request.source": 1737,
+    "retry_notice.src.downloader": 65,
+    "retry_notice.src.references": 1254,
+    "sleep.src.references.fetch_s2_paper_data": 1624,
+    "sleep.src.utils.wait": 2196,
+    "sleep.src.utils.wrapper": 65
   },
   "accepted_phases_s": {
-    "discovery": 106.43000000000004,
-    "download": 13992.79,
-    "extract": 60.629999999999995,
+    "discovery": 120.46000000000004,
+    "download": 14310.240000000002,
+    "extract": 61.47,
     "rate_limit_sleep": 0.0,
-    "s2_references": 5474.99
+    "s2_references": 5569.88
   },
-  "accepted_profiler_seconds": 7940.43,
-  "accepted_profiler_seconds_per_observation": 7.7468,
-  "all_attempt_machine_seconds_observed": 12176.858,
-  "attempts_observed": 46,
+  "accepted_profiler_seconds": 8143.74,
+  "accepted_profiler_seconds_per_observation": 7.7559,
+  "all_attempt_machine_seconds_observed": 12385.861,
+  "attempts_observed": 47,
   "by_latest_outcome": {
     "FAILED": 1,
-    "PDF_ONLY": 88,
-    "SUCCESS": 936
+    "PDF_ONLY": 91,
+    "SUCCESS": 958
   },
-  "calendar_span_observed_s": 66838.136,
-  "committed_passes": 41,
-  "evaluated_distinct": 1025,
-  "last_observed_utc": "2026-11-14T07:37:03+00:00",
-  "latest_id_extracted_bytes": 255398595,
-  "latest_id_output_disk_bytes": 304879417,
-  "latest_id_raw_bytes": 7741326025,
+  "calendar_span_observed_s": 66898.283,
+  "committed_passes": 42,
+  "evaluated_distinct": 1050,
+  "last_observed_utc": "2026-11-14T07:38:03+00:00",
+  "latest_id_extracted_bytes": 258794871,
+  "latest_id_output_disk_bytes": 309628682,
+  "latest_id_raw_bytes": 7844881805,
   "latest_id_savings_pct": 96.701,
   "peak_rss_mib": 49.21,
   "per_vm_output_disk_peak_sampled_bytes": 206598775,
-  "profiler_id_observations_including_retries": 1025,
+  "profiler_id_observations_including_retries": 1050,
   "ranges": {
     "arxiv_2503_2504_summary.csv": {
       "target": 5000
     },
     "arxiv_2503_summary.csv": {
       "FAILED": 1,
-      "PDF_ONLY": 88,
-      "SUCCESS": 936,
-      "evaluated": 1025,
-      "settled": 1024,
+      "PDF_ONLY": 91,
+      "SUCCESS": 958,
+      "evaluated": 1050,
+      "settled": 1049,
       "target": 5000
     },
     "arxiv_2505_summary.csv": {
@@ -72,12 +72,12 @@
       "target": 5000
     }
   },
-  "sample_weighted_rss_mib": 45.901,
+  "sample_weighted_rss_mib": 45.889,
   "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea",
-  "settled": 1024,
+  "settled": 1049,
   "start_utc": "2026-11-13T13:03:05+00:00",
   "status": "in_progress",
   "target": 20000,
   "uncommitted_attempts": 5,
-  "uncommitted_machine_seconds_observed": 4007.637
+  "uncommitted_machine_seconds_observed": 4008.739
 }
