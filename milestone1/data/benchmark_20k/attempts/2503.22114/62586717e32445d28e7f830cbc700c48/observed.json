@@ -2,11 +2,14 @@
   "architecture": "x86_64",
   "attempt": "62586717e32445d28e7f830cbc700c48",
   "block": "2503.22114",
+  "child_elapsed_s": 148.698,
+  "child_exit": 0,
   "cpu_affinity": 2,
   "cpu_count": 2,
+  "disk_final_bytes": 4670838,
   "disk_free_start_bytes": 115460050944,
   "disk_peak_sampled_bytes": 30679077,
-  "elapsed_observed_s": 139.234,
+  "elapsed_observed_s": 148.738,
   "ids": [
     "2503.22114",
     "2503.22115",
@@ -34,7 +37,7 @@
     "2503.22137",
     "2503.22138"
   ],
-  "last_seen_utc": 1794667637.724111,
+  "last_seen_utc": 1794667647.2284963,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
@@ -42,8 +45,47 @@
     "requests": "2.32.4",
     "tqdm": "4.67.3"
   },
-  "phase": "running",
+  "phase": "uploading",
   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "profile": {
+    "count": 25,
+    "network_counts": {
+      "coord.discovery_wait": 1,
+      "http.arxiv_api.200": 1,
+      "http.s2.200": 25,
+      "http.s2.429": 36,
+      "http.source.200": 36,
+      "http.source.429": 1,
+      "request.arxiv_api": 1,
+      "request.s2": 61,
+      "request.source": 37,
+      "retry_notice.src.downloader": 1,
+      "retry_notice.src.references": 36,
+      "sleep.src.references.fetch_s2_paper_data": 48,
+      "sleep.src.utils.wait": 57,
+      "sleep.src.utils.wrapper": 1
+    },
+    "phases_s": {
+      "discovery": 2.41,
+      "download": 270.48,
+      "extract": 1.09,
+      "rate_limit_sleep": 0.0,
+      "s2_references": 166.5
+    },
+    "ram_avg_mib": 45.87,
+    "ram_peak_mib": 47.17,
+    "ram_samples": 148,
+    "waits_s": {
+      "coord.discovery_wait": 2.003156434999255,
+      "request.arxiv_api": 0.3670977950023371,
+      "request.s2": 6.520172115011519,
+      "request.source": 21.010627947009198,
+      "sleep.src.references.fetch_s2_paper_data": 138.43948204401386,
+      "sleep.src.utils.wait": 138.95237245499447,
+      "sleep.src.utils.wrapper": 3.000157645001309
+    },
+    "wall_s": 147.73
+  },
   "python": "3.13.18",
   "ram_bytes": 13605818368,
   "s2_key_present": true,
