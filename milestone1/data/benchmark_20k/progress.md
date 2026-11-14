@@ -1,17 +1,17 @@
 # Benchmark arXiv trên Colab
 
-**9,325 / 20,000 ID đã đo** · 9,285 ID đã chốt · 373 lượt lô đã đồng bộ.
+**9,350 / 20,000 ID đã đo** · 9,310 ID đã chốt · 374 lượt lô đã đồng bộ.
 
 | Nguồn ID | Đã đo | Đã chốt | SUCCESS | PDF_ONLY | FAILED | INCOMPLETE |
 |---|---:|---:|---:|---:|---:|---:|
-| arxiv_2503_2504_summary.csv | 4325 | 4312 | 3884 | 428 | 4 | 9 |
+| arxiv_2503_2504_summary.csv | 4350 | 4337 | 3907 | 430 | 4 | 9 |
 | arxiv_2503_summary.csv | 5000 | 4973 | 4500 | 473 | 10 | 17 |
 | arxiv_2505_summary.csv | 0 | 0 | 0 | 0 | 0 | 0 |
 | arxiv_2506_summary.csv | 0 | 0 | 0 | 0 | 0 | 0 |
 
-- Tổng thời gian profiler của các lượt hợp lệ (gồm lượt thử lại) · 76,057.0 s
-- Tổng thời gian máy quan sát được, kể cả lượt dở và lưu Drive/Git · 84,772.9 s
-- Khoảng thời gian lịch từ lúc bắt đầu đến mẫu cuối (gồm lúc nhóm nghỉ) · 111,058.6 s
+- Tổng thời gian profiler của các lượt hợp lệ (gồm lượt thử lại) · 76,233.7 s
+- Tổng thời gian máy quan sát được, kể cả lượt dở và lưu Drive/Git · 84,956.3 s
+- Khoảng thời gian lịch từ lúc bắt đầu đến mẫu cuối (gồm lúc nhóm nghỉ) · 111,248.3 s
 - Kết quả theo ID, danh tính phiên và biên nhận Drive nằm trong `blocks/` và `attempts/`.
 - Số liệu cập nhật sau mỗi lần chốt lô. Heartbeat của lượt đang chạy nằm trong thư mục attempts.
 - FAILED/INCOMPLETE được giữ nguyên sau khi dùng hết số lượt thử. PDF_ONLY theo định nghĩa profiler của commit này.
