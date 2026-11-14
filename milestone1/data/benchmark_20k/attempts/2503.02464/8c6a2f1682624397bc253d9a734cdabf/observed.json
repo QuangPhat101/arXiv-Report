@@ -6,7 +6,8 @@
   "cpu_count": 2,
   "disk_free_start_bytes": 115537096704,
   "disk_peak_sampled_bytes": 119348870,
-  "elapsed_observed_s": 4477.366,
+  "elapsed_observed_s": 4500.114,
+  "exception": "TimeoutError: Crawler vượt thời gian tối đa của một lô.",
   "ids": [
     "2503.02464",
     "2503.02465",
@@ -34,7 +35,7 @@
     "2503.02487",
     "2503.02488"
   ],
-  "last_seen_utc": 1794642760.3488162,
+  "last_seen_utc": 1794642783.0969431,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
@@ -42,7 +43,7 @@
     "requests": "2.32.4",
     "tqdm": "4.67.3"
   },
-  "phase": "running",
+  "phase": "interrupted",
   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
   "python": "3.13.18",
   "ram_bytes": 13605810176,
