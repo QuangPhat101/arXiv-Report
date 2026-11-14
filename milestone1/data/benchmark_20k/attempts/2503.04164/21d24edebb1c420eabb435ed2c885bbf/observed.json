@@ -2,11 +2,14 @@
   "architecture": "x86_64",
   "attempt": "21d24edebb1c420eabb435ed2c885bbf",
   "block": "2503.04164",
+  "child_elapsed_s": 142.326,
+  "child_exit": 0,
   "cpu_affinity": 2,
   "cpu_count": 2,
+  "disk_final_bytes": 3874032,
   "disk_free_start_bytes": 115534041088,
   "disk_peak_sampled_bytes": 32268793,
-  "elapsed_observed_s": 139.735,
+  "elapsed_observed_s": 142.357,
   "ids": [
     "2503.04164",
     "2503.04165",
@@ -34,7 +37,7 @@
     "2503.04187",
     "2503.04188"
   ],
-  "last_seen_utc": 1794653707.6772876,
+  "last_seen_utc": 1794653710.2987595,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
@@ -42,8 +45,47 @@
     "requests": "2.32.4",
     "tqdm": "4.67.3"
   },
-  "phase": "running",
+  "phase": "uploading",
   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "profile": {
+    "count": 25,
+    "network_counts": {
+      "coord.discovery_wait": 1,
+      "http.arxiv_api.200": 1,
+      "http.s2.200": 25,
+      "http.s2.429": 18,
+      "http.source.200": 35,
+      "http.source.429": 2,
+      "request.arxiv_api": 1,
+      "request.s2": 43,
+      "request.source": 37,
+      "retry_notice.src.downloader": 2,
+      "retry_notice.src.references": 18,
+      "sleep.src.references.fetch_s2_paper_data": 18,
+      "sleep.src.utils.wait": 39,
+      "sleep.src.utils.wrapper": 2
+    },
+    "phases_s": {
+      "discovery": 2.3,
+      "download": 272.82,
+      "extract": 0.74,
+      "rate_limit_sleep": 0.0,
+      "s2_references": 52.33
+    },
+    "ram_avg_mib": 45.14,
+    "ram_peak_mib": 45.72,
+    "ram_samples": 140,
+    "waits_s": {
+      "coord.discovery_wait": 2.003574623000077,
+      "request.arxiv_api": 0.27085121699997217,
+      "request.s2": 6.097242445999768,
+      "request.source": 34.2321667299999,
+      "sleep.src.references.fetch_s2_paper_data": 43.342983286999925,
+      "sleep.src.utils.wait": 102.3851758400001,
+      "sleep.src.utils.wrapper": 6.000253208999993
+    },
+    "wall_s": 139.91
+  },
   "python": "3.13.18",
   "ram_bytes": 13605810176,
   "s2_key_present": true,
