@@ -5,8 +5,8 @@
   "cpu_affinity": 2,
   "cpu_count": 2,
   "disk_free_start_bytes": 115483836416,
-  "disk_peak_sampled_bytes": 0,
-  "elapsed_observed_s": 0.0,
+  "disk_peak_sampled_bytes": 8950927,
+  "elapsed_observed_s": 45.353,
   "ids": [
     "2506.05888",
     "2506.05889",
@@ -34,6 +34,7 @@
     "2506.05911",
     "2506.05912"
   ],
+  "last_seen_utc": 1794759134.690917,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
@@ -41,12 +42,12 @@
     "requests": "2.32.4",
     "tqdm": "4.67.3"
   },
-  "phase": "claimed",
+  "phase": "running",
   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
   "python": "3.13.18",
   "ram_bytes": 13605810176,
   "s2_key_present": true,
   "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea",
   "session": "c5953d3b88d34517ae07fbdd2368f172",
-  "started_utc": 1794759087.529312
+  "started_utc": 1794759089.3384058
 }
