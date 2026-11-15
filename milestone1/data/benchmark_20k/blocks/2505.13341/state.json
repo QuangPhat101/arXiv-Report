@@ -1,38 +1,208 @@
 {
-  "done_at": null,
-  "lease": {
-    "expires": 1794733638.9369376,
-    "ids": [
-      "2505.13341",
-      "2505.13342",
-      "2505.13343",
-      "2505.13344",
-      "2505.13345",
-      "2505.13346",
-      "2505.13347",
-      "2505.13348",
-      "2505.13349",
-      "2505.13350",
-      "2505.13351",
-      "2505.13352",
-      "2505.13353",
-      "2505.13354",
-      "2505.13355",
-      "2505.13356",
-      "2505.13357",
-      "2505.13358",
-      "2505.13359",
-      "2505.13360",
-      "2505.13361",
-      "2505.13362",
-      "2505.13363",
-      "2505.13364",
-      "2505.13365"
-    ],
-    "session": "b2a7049cce804825a5fbc5c304b5a945",
-    "started": 1794733080.1470473,
-    "token": "dedec4e70a1748e8b3ccaf568872da99"
+  "done_at": 1794733283.7774613,
+  "lease": null,
+  "papers": {
+    "2505.13341": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 208997,
+      "extracted_bytes": 178902,
+      "outcome": "SUCCESS",
+      "raw_bytes": 1292863
+    },
+    "2505.13342": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 72829,
+      "extracted_bytes": 53862,
+      "outcome": "SUCCESS",
+      "raw_bytes": 173949
+    },
+    "2505.13343": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 99953,
+      "extracted_bytes": 87384,
+      "outcome": "SUCCESS",
+      "raw_bytes": 1046884
+    },
+    "2505.13344": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 222391,
+      "extracted_bytes": 185009,
+      "outcome": "SUCCESS",
+      "raw_bytes": 19964619
+    },
+    "2505.13345": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 164689,
+      "extracted_bytes": 109604,
+      "outcome": "SUCCESS",
+      "raw_bytes": 2735073
+    },
+    "2505.13346": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 502856,
+      "extracted_bytes": 163292,
+      "outcome": "SUCCESS",
+      "raw_bytes": 1770772
+    },
+    "2505.13347": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 237016,
+      "extracted_bytes": 232896,
+      "outcome": "SUCCESS",
+      "raw_bytes": 68792
+    },
+    "2505.13348": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 85670,
+      "extracted_bytes": 47869,
+      "outcome": "SUCCESS",
+      "raw_bytes": 20286
+    },
+    "2505.13349": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 23946,
+      "extracted_bytes": 18877,
+      "outcome": "SUCCESS",
+      "raw_bytes": 332573
+    },
+    "2505.13350": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 236057,
+      "extracted_bytes": 220567,
+      "outcome": "SUCCESS",
+      "raw_bytes": 15122476
+    },
+    "2505.13351": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 125266,
+      "extracted_bytes": 114401,
+      "outcome": "SUCCESS",
+      "raw_bytes": 35345
+    },
+    "2505.13352": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 103783,
+      "extracted_bytes": 85381,
+      "outcome": "SUCCESS",
+      "raw_bytes": 65899544
+    },
+    "2505.13353": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 569096,
+      "extracted_bytes": 548580,
+      "outcome": "SUCCESS",
+      "raw_bytes": 1203078
+    },
+    "2505.13354": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 391178,
+      "extracted_bytes": 362555,
+      "outcome": "SUCCESS",
+      "raw_bytes": 7540270
+    },
+    "2505.13355": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 803360,
+      "extracted_bytes": 773354,
+      "outcome": "SUCCESS",
+      "raw_bytes": 411489
+    },
+    "2505.13356": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 183551,
+      "extracted_bytes": 165894,
+      "outcome": "SUCCESS",
+      "raw_bytes": 6207712
+    },
+    "2505.13357": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 115459,
+      "extracted_bytes": 104957,
+      "outcome": "SUCCESS",
+      "raw_bytes": 1147854
+    },
+    "2505.13358": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 433809,
+      "extracted_bytes": 397090,
+      "outcome": "SUCCESS",
+      "raw_bytes": 37090370
+    },
+    "2505.13359": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 329841,
+      "extracted_bytes": 298773,
+      "outcome": "SUCCESS",
+      "raw_bytes": 5345517
+    },
+    "2505.13360": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 456109,
+      "extracted_bytes": 428001,
+      "outcome": "SUCCESS",
+      "raw_bytes": 1072486
+    },
+    "2505.13361": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 1059713,
+      "extracted_bytes": 825452,
+      "outcome": "SUCCESS",
+      "raw_bytes": 9015318
+    },
+    "2505.13362": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 194233,
+      "extracted_bytes": 179252,
+      "outcome": "SUCCESS",
+      "raw_bytes": 19188005
+    },
+    "2505.13363": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 83790,
+      "extracted_bytes": 79655,
+      "outcome": "SUCCESS",
+      "raw_bytes": 1881051
+    },
+    "2505.13364": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 469038,
+      "extracted_bytes": 413912,
+      "outcome": "SUCCESS",
+      "raw_bytes": 1258048
+    },
+    "2505.13365": {
+      "attempt": "dedec4e70a1748e8b3ccaf568872da99",
+      "disk_bytes": 284707,
+      "extracted_bytes": 269541,
+      "outcome": "SUCCESS",
+      "raw_bytes": 4749664
+    }
   },
-  "papers": {},
-  "passes": {}
+  "passes": {
+    "2505.13341": 1,
+    "2505.13342": 1,
+    "2505.13343": 1,
+    "2505.13344": 1,
+    "2505.13345": 1,
+    "2505.13346": 1,
+    "2505.13347": 1,
+    "2505.13348": 1,
+    "2505.13349": 1,
+    "2505.13350": 1,
+    "2505.13351": 1,
+    "2505.13352": 1,
+    "2505.13353": 1,
+    "2505.13354": 1,
+    "2505.13355": 1,
+    "2505.13356": 1,
+    "2505.13357": 1,
+    "2505.13358": 1,
+    "2505.13359": 1,
+    "2505.13360": 1,
+    "2505.13361": 1,
+    "2505.13362": 1,
+    "2505.13363": 1,
+    "2505.13364": 1,
+    "2505.13365": 1
+  }
 }
