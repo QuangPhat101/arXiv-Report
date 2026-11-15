@@ -2,11 +2,14 @@
   "architecture": "x86_64",
   "attempt": "e1bddbc4eec14ada82d3e64a50aa93b7",
   "block": "2505.11791",
+  "child_elapsed_s": 1168.275,
+  "child_exit": 0,
   "cpu_affinity": 2,
   "cpu_count": 2,
+  "disk_final_bytes": 3945670,
   "disk_free_start_bytes": 115483688960,
   "disk_peak_sampled_bytes": 47914856,
-  "elapsed_observed_s": 1160.817,
+  "elapsed_observed_s": 1168.294,
   "ids": [
     "2505.11791",
     "2505.11792",
@@ -34,7 +37,7 @@
     "2505.11814",
     "2505.11815"
   ],
-  "last_seen_utc": 1794718578.4126384,
+  "last_seen_utc": 1794718585.8899632,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
@@ -42,8 +45,50 @@
     "requests": "2.32.4",
     "tqdm": "4.67.3"
   },
-  "phase": "running",
+  "phase": "uploading",
   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "profile": {
+    "count": 25,
+    "network_counts": {
+      "coord.discovery_wait": 53,
+      "http.arxiv_api.429": 27,
+      "http.arxiv_api.error.ReadTimeout": 26,
+      "http.s2.200": 25,
+      "http.s2.429": 48,
+      "http.source.200": 25,
+      "request.arxiv_api": 53,
+      "request.s2": 73,
+      "request.source": 25,
+      "retry_notice.arxiv_client": 26,
+      "retry_notice.src.discovery": 1,
+      "retry_notice.src.references": 48,
+      "sleep.arxiv.__try_parse_feed": 26,
+      "sleep.src.discovery.discover_papers_batch": 1,
+      "sleep.src.references.fetch_s2_paper_data": 50,
+      "sleep.src.utils.wait": 26
+    },
+    "phases_s": {
+      "discovery": 1163.35,
+      "download": 177.52,
+      "extract": 1.44,
+      "rate_limit_sleep": 0.0,
+      "s2_references": 194.84
+    },
+    "ram_avg_mib": 45.29,
+    "ram_peak_mib": 46.21,
+    "ram_samples": 1166,
+    "waits_s": {
+      "coord.discovery_wait": 337.9097425929958,
+      "request.arxiv_api": 649.304975412002,
+      "request.s2": 23.76471683899399,
+      "request.source": 20.214884756001993,
+      "sleep.arxiv.__try_parse_feed": 91.00445090900212,
+      "sleep.src.discovery.discover_papers_batch": 15.000299248999,
+      "sleep.src.references.fetch_s2_paper_data": 167.25456595900505,
+      "sleep.src.utils.wait": 85.97330932799741
+    },
+    "wall_s": 1166.95
+  },
   "python": "3.13.18",
   "ram_bytes": 13605818368,
   "s2_key_present": true,
