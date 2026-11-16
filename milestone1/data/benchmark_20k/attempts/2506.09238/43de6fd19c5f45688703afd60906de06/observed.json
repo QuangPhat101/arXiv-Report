@@ -9,7 +9,8 @@
   "disk_final_bytes": 7026162,
   "disk_free_start_bytes": 115418542080,
   "disk_peak_sampled_bytes": 42215205,
-  "elapsed_observed_s": 160.863,
+  "elapsed_observed_s": 164.208,
+  "finished_utc": 1794819276.5716875,
   "ids": [
     "2506.09238",
     "2506.09239",
@@ -37,7 +38,7 @@
     "2506.09261",
     "2506.09262"
   ],
-  "last_seen_utc": 1794819273.2262661,
+  "last_seen_utc": 1794819276.571689,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
@@ -45,7 +46,7 @@
     "requests": "2.32.4",
     "tqdm": "4.67.3"
   },
-  "phase": "uploading",
+  "phase": "committed",
   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
   "profile": {
     "count": 25,
