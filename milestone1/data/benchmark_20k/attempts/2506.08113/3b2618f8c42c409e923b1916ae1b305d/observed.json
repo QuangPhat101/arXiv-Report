@@ -2,15 +2,19 @@
   "architecture": "x86_64",
   "attempt": "3b2618f8c42c409e923b1916ae1b305d",
   "block": "2506.08113",
+  "child_elapsed_s": 16.468,
+  "child_exit": 0,
   "cpu_affinity": 2,
   "cpu_count": 2,
+  "disk_final_bytes": 342396,
   "disk_free_start_bytes": 115284811776,
-  "disk_peak_sampled_bytes": 0,
-  "elapsed_observed_s": 0.0,
+  "disk_peak_sampled_bytes": 1312870,
+  "elapsed_observed_s": 16.475,
   "ids": [
     "2506.08119",
     "2506.08131"
   ],
+  "last_seen_utc": 1794827229.7689269,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
@@ -18,12 +22,47 @@
     "requests": "2.32.4",
     "tqdm": "4.67.3"
   },
-  "phase": "claimed",
+  "phase": "uploading",
   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "profile": {
+    "count": 2,
+    "network_counts": {
+      "coord.discovery_wait": 1,
+      "http.arxiv_api.200": 1,
+      "http.s2.200": 2,
+      "http.s2.429": 1,
+      "http.source.200": 3,
+      "request.arxiv_api": 1,
+      "request.s2": 3,
+      "request.source": 3,
+      "retry_notice.src.references": 1,
+      "sleep.src.references.fetch_s2_paper_data": 1,
+      "sleep.src.utils.wait": 2
+    },
+    "phases_s": {
+      "discovery": 5.48,
+      "download": 10.55,
+      "extract": 0.06,
+      "rate_limit_sleep": 0.0,
+      "s2_references": 3.05
+    },
+    "ram_avg_mib": 42.96,
+    "ram_peak_mib": 44.2,
+    "ram_samples": 16,
+    "waits_s": {
+      "coord.discovery_wait": 2.0026665449986467,
+      "request.arxiv_api": 3.4693715089997568,
+      "request.s2": 0.85797544000161,
+      "request.source": 0.028964437002287013,
+      "sleep.src.references.fetch_s2_paper_data": 2.182541622001736,
+      "sleep.src.utils.wait": 6.99855350499638
+    },
+    "wall_s": 15.22
+  },
   "python": "3.13.18",
   "ram_bytes": 13605818368,
   "s2_key_present": true,
   "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea",
   "session": "9b72694fd03545888ee7719174234183",
-  "started_utc": 1794827211.544762
+  "started_utc": 1794827213.2937605
 }
