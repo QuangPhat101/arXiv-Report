@@ -1,6 +1,14 @@
 {
   "done_at": null,
-  "lease": null,
+  "lease": {
+    "expires": 1794826736.7229767,
+    "ids": [
+      "2505.14891"
+    ],
+    "session": "c9efe95ee8714822a4283005e2282115",
+    "started": 1794826376.7229767,
+    "token": "c10af86e5030467494cc71489b813568"
+  },
   "papers": {
     "2505.14891": {
       "attempt": "786c4de9695b457d99bf44be7815c4ea",
