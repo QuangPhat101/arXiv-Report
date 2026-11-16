@@ -2,16 +2,20 @@
   "architecture": "x86_64",
   "attempt": "4ca0645874ac4e2aa50f7d93e2ec611d",
   "block": "2504.00423",
+  "child_elapsed_s": 22.406,
+  "child_exit": 0,
   "cpu_affinity": 2,
   "cpu_count": 2,
+  "disk_final_bytes": 250112,
   "disk_free_start_bytes": 115308052480,
-  "disk_peak_sampled_bytes": 0,
-  "elapsed_observed_s": 0.0,
+  "disk_peak_sampled_bytes": 250112,
+  "elapsed_observed_s": 22.412,
   "ids": [
     "2504.00423",
     "2504.00425",
     "2504.00426"
   ],
+  "last_seen_utc": 1794825581.7693179,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
@@ -19,12 +23,47 @@
     "requests": "2.32.4",
     "tqdm": "4.67.3"
   },
-  "phase": "claimed",
+  "phase": "uploading",
   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "profile": {
+    "count": 3,
+    "network_counts": {
+      "coord.discovery_wait": 1,
+      "http.arxiv_api.200": 1,
+      "http.s2.200": 3,
+      "http.s2.429": 4,
+      "http.source.200": 3,
+      "request.arxiv_api": 1,
+      "request.s2": 7,
+      "request.source": 3,
+      "retry_notice.src.references": 4,
+      "sleep.src.references.fetch_s2_paper_data": 5,
+      "sleep.src.utils.wait": 4
+    },
+    "phases_s": {
+      "discovery": 1.97,
+      "download": 13.88,
+      "extract": 0.02,
+      "rate_limit_sleep": 0.0,
+      "s2_references": 16.4
+    },
+    "ram_avg_mib": 43.79,
+    "ram_peak_mib": 44.42,
+    "ram_samples": 22,
+    "waits_s": {
+      "coord.discovery_wait": 1.8034792819998984,
+      "request.arxiv_api": 0.15651699199952418,
+      "request.s2": 1.1768901480063505,
+      "request.source": 0.319735661996674,
+      "sleep.src.references.fetch_s2_paper_data": 14.210884115003864,
+      "sleep.src.utils.wait": 9.530341761001182
+    },
+    "wall_s": 21.22
+  },
   "python": "3.13.18",
   "ram_bytes": 13605818368,
   "s2_key_present": true,
   "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea",
   "session": "9b72694fd03545888ee7719174234183",
-  "started_utc": 1794825557.6636338
+  "started_utc": 1794825559.3570986
 }
