@@ -1,14 +1,6 @@
 {
-  "done_at": null,
-  "lease": {
-    "expires": 1794826999.890733,
-    "ids": [
-      "2505.15589"
-    ],
-    "session": "c9efe95ee8714822a4283005e2282115",
-    "started": 1794826618.157897,
-    "token": "f9b54cf5de5b45ef8304e86b8f1692c2"
-  },
+  "done_at": 1794826644.602768,
+  "lease": null,
   "papers": {
     "2505.15566": {
       "attempt": "20fbb671194d497daaf2ab59900ba4af",
@@ -172,10 +164,10 @@
       "raw_bytes": 39751173
     },
     "2505.15589": {
-      "attempt": "20fbb671194d497daaf2ab59900ba4af",
-      "disk_bytes": 73715,
+      "attempt": "f9b54cf5de5b45ef8304e86b8f1692c2",
+      "disk_bytes": 82653,
       "extracted_bytes": 73360,
-      "outcome": "FAILED",
+      "outcome": "SUCCESS",
       "raw_bytes": 3626248
     },
     "2505.15590": {
@@ -210,7 +202,7 @@
     "2505.15586": 1,
     "2505.15587": 1,
     "2505.15588": 1,
-    "2505.15589": 1,
+    "2505.15589": 2,
     "2505.15590": 1
   }
 }
