@@ -1,36 +1,26 @@
 {
-  "done_at": null,
-  "lease": {
-    "expires": 1794825911.3177543,
-    "ids": [
-      "2503.24114",
-      "2503.24115",
-      "2503.24116"
-    ],
-    "session": "9b72694fd03545888ee7719174234183",
-    "started": 1794825499.8869169,
-    "token": "a69cab131eea41ff91c9bec26fddf363"
-  },
+  "done_at": 1794825554.3506033,
+  "lease": null,
   "papers": {
     "2503.24114": {
-      "attempt": "f5759aef95d24119a2317142dd139221",
-      "disk_bytes": 238108,
+      "attempt": "a69cab131eea41ff91c9bec26fddf363",
+      "disk_bytes": 238304,
       "extracted_bytes": 237956,
-      "outcome": "INCOMPLETE",
+      "outcome": "SUCCESS",
       "raw_bytes": 111134
     },
     "2503.24115": {
-      "attempt": "f5759aef95d24119a2317142dd139221",
-      "disk_bytes": 117516,
-      "extracted_bytes": 92904,
-      "outcome": "INCOMPLETE",
-      "raw_bytes": 1614825
+      "attempt": "a69cab131eea41ff91c9bec26fddf363",
+      "disk_bytes": 376329,
+      "extracted_bytes": 351117,
+      "outcome": "SUCCESS",
+      "raw_bytes": 9369143
     },
     "2503.24116": {
-      "attempt": "f5759aef95d24119a2317142dd139221",
-      "disk_bytes": 114442,
+      "attempt": "a69cab131eea41ff91c9bec26fddf363",
+      "disk_bytes": 114702,
       "extracted_bytes": 92103,
-      "outcome": "INCOMPLETE",
+      "outcome": "SUCCESS",
       "raw_bytes": 721180
     },
     "2503.24117": {
@@ -189,9 +179,9 @@
     }
   },
   "passes": {
-    "2503.24114": 1,
-    "2503.24115": 1,
-    "2503.24116": 1,
+    "2503.24114": 2,
+    "2503.24115": 2,
+    "2503.24116": 2,
     "2503.24117": 1,
     "2503.24118": 1,
     "2503.24119": 1,
