@@ -2,14 +2,18 @@
   "architecture": "x86_64",
   "attempt": "55ce3c42b8c9433eb2bf96fbe8a43a62",
   "block": "2506.06938",
+  "child_elapsed_s": 9.775,
+  "child_exit": 0,
   "cpu_affinity": 2,
   "cpu_count": 2,
+  "disk_final_bytes": 409554,
   "disk_free_start_bytes": 115348254720,
-  "disk_peak_sampled_bytes": 0,
-  "elapsed_observed_s": 0.0,
+  "disk_peak_sampled_bytes": 409554,
+  "elapsed_observed_s": 9.78,
   "ids": [
     "2506.06947"
   ],
+  "last_seen_utc": 1794826769.7154107,
   "packages": {
     "arxiv": "4.0.2",
     "google-api-python-client": "2.201.0",
@@ -17,12 +21,43 @@
     "requests": "2.32.4",
     "tqdm": "4.67.3"
   },
-  "phase": "claimed",
+  "phase": "uploading",
   "platform": "Linux-6.6.159+-x86_64-with-glibc2.39",
+  "profile": {
+    "count": 1,
+    "network_counts": {
+      "coord.discovery_wait": 1,
+      "http.arxiv_api.200": 1,
+      "http.s2.200": 1,
+      "http.source.200": 2,
+      "request.arxiv_api": 1,
+      "request.s2": 1,
+      "request.source": 2,
+      "sleep.src.utils.wait": 1
+    },
+    "phases_s": {
+      "discovery": 3.87,
+      "download": 3.72,
+      "extract": 0.0,
+      "rate_limit_sleep": 0.0,
+      "s2_references": 1.2
+    },
+    "ram_avg_mib": 42.21,
+    "ram_peak_mib": 43.1,
+    "ram_samples": 9,
+    "waits_s": {
+      "coord.discovery_wait": 3.206273784999212,
+      "request.arxiv_api": 0.6508510000021488,
+      "request.s2": 1.1831335650022083,
+      "request.source": 0.5435098830021161,
+      "sleep.src.utils.wait": 3.1272767719965486
+    },
+    "wall_s": 8.8
+  },
   "python": "3.13.18",
   "ram_bytes": 13605818368,
   "s2_key_present": true,
   "scraper_sha": "c87f35aca9495f7e3aa4261340d5f10778b692ea",
   "session": "c9efe95ee8714822a4283005e2282115",
-  "started_utc": 1794826757.206224
+  "started_utc": 1794826759.9356365
 }
