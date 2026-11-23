@@ -6,6 +6,7 @@ project:
     - file: milestone1/implementation.md
     - file: milestone1/statistics.ipynb
     - file: milestone1/performance.ipynb
+      title: Performance Benchmarking
 
 site:
   template: book-theme
